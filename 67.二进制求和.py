@@ -19,5 +19,7 @@ class Solution:
         #使用bin可以把十进制数字转为二进制，但是会保留两位前缀
         c=(bin(sa+sb))[2:]
         return c
+    #终极简化解法
+    #return bin(int(a, 2) + int(b, 2))[2:]
 # @lc code=end
 
